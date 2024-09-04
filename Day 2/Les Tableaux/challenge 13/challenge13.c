@@ -14,7 +14,7 @@ int main (){
 
     for ( i = 0; i < taille; i++){
         if (nombre[i] % 2  != 0){
-            printf("%d", nombre[i]);
+            printf("%d ", nombre[i]);
         }
     }
     return 0;
