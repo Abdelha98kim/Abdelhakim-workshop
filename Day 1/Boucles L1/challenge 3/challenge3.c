@@ -9,6 +9,6 @@ int main (){
         operation = operation + i;
     }
 
-    printf("\nla somme des premier %d nombre est : %d", nombre, operation);
+    printf("\nla somme des premiers %d nombre est : %d", nombre, operation);
     return 0;
 }
