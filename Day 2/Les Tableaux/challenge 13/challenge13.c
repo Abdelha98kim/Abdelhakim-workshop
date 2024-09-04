@@ -7,7 +7,7 @@ int main (){
     scanf("%d", &taille);
     int nombre[taille];
     for ( i = 0; i < taille; i++){
-        printf("Saisez les elemnt %d: ", i + 1);
+        printf("Saisez les element %d: ", i + 1);
         scanf("%d", &nombre[i]);
         
     }
