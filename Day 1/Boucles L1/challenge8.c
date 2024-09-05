@@ -5,7 +5,7 @@ int main (){
     // varibles
     int n, f, i;
     int x1 = 0, x2 = 1;
-
+    
     //demande
     printf("Saisez un nombre: ");
     scanf("%d", &n);
