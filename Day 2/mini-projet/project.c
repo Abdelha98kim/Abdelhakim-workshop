@@ -16,6 +16,7 @@ void Afficher_livre();
 
 int main (){
     int selectioner, nombre_ajouter;
+    Livre Stock[10];
 
   /*  printf("\nSysteme de Gestion de Stock dans une Librairie\t \n");
     printf("----------------------------------------------\n");
@@ -30,7 +31,8 @@ int main (){
     // scanf("%d", &selectioner);
 
    Livre ajoute =  Ajouter_livre();
-   void affiche = Afficher_livre();
+   Stock[0] = ajoute;
+    Afficher_livre(Stock);
     return 0;
 }
 
@@ -50,12 +52,14 @@ Livre Ajouter_livre(){
 }
 
 void Afficher_livre(Livre A[]){
-    Livre L1;
-    printf("Livre 1: \n");
-    printf("Titre: %s\n", L1.titre);
-    printf("auteur: %s\n", L1.auteur);
-    printf("Prix: %f$\n", L1.prix);
-    printf("La quantite dans le Stock: %d piece", L1.quantite);
+    for (int i = 0; i < 10; i++){
+        
+    printf("Livre %d: \n", i+1);
+    printf("Titre: %s\n", A[i].titre);
+    printf("auteur: %s\n", A[i].auteur);
+    printf("Prix: %f$\n", A[i].prix);
+    printf("La quantite dans le Stock: %d piece\n", A[i].quantite);
+    }
 
 
 }
