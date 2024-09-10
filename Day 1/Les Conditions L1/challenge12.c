@@ -20,7 +20,7 @@ int main(){
 
     if (heure1 < heure2 || (heure1 == heure2 && minute1 < minute2) || (heure1 == heure2 && minute1 == minute2 && seconde1 < seconde2)){
         printf("Le premier instant vient avant le deuxieme");
-    }else if(heure2 < heure1 || (heure1 == heure2 && minute1 < minute2) || (heure1 == heure2 && minute1 == minute2 && seconde2 < seconde1)){
+    }else if(heure2 < heure1 || (heure1 == heure2 && minute2 < minute1) || (heure1 == heure2 && minute1 == minute2 && seconde2 < seconde1)){
         printf("Le deuxieme instant vient avant le premier");
     }else{
         printf("Il s'agit du meme instant");
